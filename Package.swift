@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "YandexDiskKit",
-            path: "Source"
+            path: "YandexDiskKit/YandexDiskKit"
         )
     ],
     swiftLanguageVersions: [.v4, .v5]

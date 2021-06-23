@@ -7,13 +7,11 @@ let package = Package(
     products: [
         .library(name: "YandexDiskKit", targets:["YandexDiskKit"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/vedenskylx/YandexDiskKit.git", .upToNextMinor(from: "1.0.0")),
-    ],
     targets: [
         .target(
             name: "YandexDiskKit",
             path: "Source"
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v4, .v5]
 )
